@@ -1,0 +1,17 @@
+﻿<Page x:Class="Venus.Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Venus"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1600"
+      Title="Page6">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="result.png" Margin="167,28"/>
+        <Button Content="スタート" HorizontalAlignment="Left" Margin="1171,701,0,0" VerticalAlignment="Top" Width="262" Height="189" Click="start_Click" FontSize="48" Opacity="0"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="64" Margin="206,76,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" Opacity="0"/>
+
+    </Grid>
+</Page>
